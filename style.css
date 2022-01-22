@@ -1,0 +1,18 @@
+@media only screen and (max-width: 991px) {
+	.cards-2 {
+		background-color: tomato;
+	}
+	.card {
+		margin-bottom: 10px;
+	}
+}
+.card {
+	transition: 0.5s;
+}
+.card:hover {
+	cursor: pointer;
+	box-shadow: 2px 2px 5px pink;
+}
+.card:active {
+	box-shadow: purple;
+}
